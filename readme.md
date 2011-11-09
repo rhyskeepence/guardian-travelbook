@@ -7,6 +7,8 @@ A location aware web application, which shows Guardian travel articles near you.
 The initial version was knocked up over a few nights (Scotch driven development).
 I'd love to extend this to a more complete travel website, using geotagged content from multiple sources.
 
+You can play with it here: (http://travelbook.rhyskeepence.cloudbees.net)
+
 # Tech
 
 - Scala/Lift
