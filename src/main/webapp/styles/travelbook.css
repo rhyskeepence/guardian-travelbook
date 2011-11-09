@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+}
+
+.thumb {
+    display: inline;
+    height: auto;
+    max-height: 100%;
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.article {
+    border-bottom: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.article p {
+    font-size: 1.4em;
+}
+
+.actions {
+    padding-bottom: 20px;
+    display: none;
+}
+
+.container {
+    min-height: 100%;
+    height: auto;
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+    font-size: .8em;
+    position: relative;
+    margin-top: -50px;
+    height: 50px;
+    clear: both;
+}

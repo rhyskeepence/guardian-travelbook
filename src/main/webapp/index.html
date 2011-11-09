@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:lift="http://liftweb.net/">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <title>Guardian Travel Book</title>
+
+    <link rel="stylesheet" href="styles/foundation.css">
+    <link rel="stylesheet" href="styles/travelbook.css">
+
+    <script src="/classpath/jquery.js"></script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4867960-2']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div id="content">
+                Please enable location services to view
+                <a href="http://guardian.co.uk">guardian</a>
+                content tagged near you.
+            </div>
+        </div>
+        <div style="display:none; text-align:center;" id="ajax-loader">
+            <img src="images/ajax-loader.gif" width="32" height="32"/>
+        </div>
+    </div>
+    <footer>
+        Content by the <a href="http://guardian.co.uk">guardian</a>.
+        Site by Rhys Keepence (gmail: rhyskeepence)
+    </footer>
+
+    <script type="text/javascript" src="javascripts/reveal.js"></script>
+    <script type="text/javascript" src="javascripts/location.js"></script>
+    <lift:Nearby.update/>
+</body>
+</html>
