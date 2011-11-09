@@ -1,6 +1,7 @@
-Guardian Travelbook
+Guardian Travel Book
+====================
 
-# Introduction 
+#Introduction 
 
 A location aware web application, which shows Guardian travel articles near you. 
 The initial version was knocked up over a few nights (Scotch driven development).
